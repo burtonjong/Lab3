@@ -16,7 +16,6 @@ Description : Learning CSS.
         margin: 30px;
         border: 2px black solid;
         display: inline;
-
         /*Modify #margin-demo to have a margin of 30px and a solid black border of 2px. Also, the borders must fit the content.*/
       }
 
@@ -33,9 +32,8 @@ Description : Learning CSS.
 
       .inline-demo {
         display: inline;
-
+        margin: 0 15px 0 15px;
         /*Change the display to see all elements of this type in a line.*/
-        margin: 15px;
       }
 
       .block-demo {
@@ -61,6 +59,7 @@ Description : Learning CSS.
 
       .block-demo > .inline-demo:nth-child(2) {
         color: blue;
+        float: middle;
       }
 
       /* Add your css for the thrid child here. */
@@ -118,7 +117,7 @@ Description : Learning CSS.
     <!-- Add a dotted green border of 3px inline. Which style will win the competition? -->
     <img
       class="image-demo"
-      style="border-style:dotted; border-color:green; border-width:3px;"
+      style="border-style: dotted; border-color: green; border-width: 3px"
       src="images/example.svg"
       alt="Demo Image"
     />
