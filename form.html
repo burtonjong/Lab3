@@ -40,10 +40,10 @@ Description : A simple HTML file for form tag.
         <label for="female">Female</label><br />
 
         <input type="radio" id="other" name="gender" value="other" />
-        <label for="other">Other</label><br />
-
+        <label for="other">Other</label><br/>
+        <br>
         <label for="fruits">Choose a fruit:</label><br />
-        <select id="fruits" name="fruits" size="3" multiple>
+        <select id="fruits" name="fruits" size="5">
           <option value="apple">Apple</option>
           <option value="orange">Orange</option>
           <option value="banana">Banana</option>
@@ -63,7 +63,7 @@ Description : A simple HTML file for form tag.
         <input type="date" id="birthday" name="'birthday" /><br />
         <label for="favcolor">Favorite Color:</label><br />
         <input type="color" id="favcolor" name="favcolor" /><br />
-        <label for="quantity">Quantity:</label><br />
+        <label for="quantity">Quantity (between 1 and 5):</label><br />
         <input
           type="number"
           id="quantity"
@@ -88,12 +88,10 @@ Description : A simple HTML file for form tag.
           placeholder="https://google.com"
         /><br />
         <label for="feedback">Feedback:</label><br />
-        <textarea id="feedback" name="feedback" rows="5" cols="25"></textarea
-        ><br />
-        <label for="files">Files:</label><br />
+        <textarea id="feedback" name="feedback" rows="12" cols="100"></textarea><br />
         <input type="file" id="files" name="files" /><br />
-        <label for="newsletter">Subscribe to newsletter:</label>
-        <input type="checkbox" id="newsletter" name="'newsletter" /><br />
+        <input type="checkbox" id="newsletter" name="'newsletter"/>
+        <label for="newsletter">Subscribe to newsletter</label><br>
         <input type="hidden" id="customerID" name="customerID" value="12345" />
         <input type="submit" value="Submit" />
         <input type="reset" value="Reset" />
